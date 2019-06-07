@@ -158,6 +158,9 @@ spring:
         - alias: spring-security-saml-sp
           metadata: http://localhost:8080/sample-sp/saml/sp/metadata
           linktext: Spring Security SAML SP
+        - alias: spring-security-saml-local-sp
+          metadata: http://localhost:8084/saml/metadata
+          linktext: Spring security local saml sp
         - alias: simplesamlphp
           metadata: http://simplesaml-for-spring-saml.cfapps.io/module.php/saml/sp/metadata.php/default-sp
           link-text: Simple SAML PHP SP
